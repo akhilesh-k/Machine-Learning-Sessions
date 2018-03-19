@@ -14,8 +14,9 @@ That's all! :)
 - Pandas 
 - scikit-learn 
 - Matplotlib 
- 
-**Kickstarting with data- Data PreprocessinG**
+
+**Kickstarting with data- Data Preprocessing**
+
 - Importing Libraries 
 - Importing Datasets 
 - Statistical processing of Datasets 
