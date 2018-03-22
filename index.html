@@ -19,6 +19,37 @@
       el.className = el.className.replace('no-js', 'js')
       
     </script>
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+function postContactToGoogle() 
+{
+	var name = $('name').val();
+	var roll = $('roll').val();
+	var mob = $('mob').val();
+	var email = $('email').val();
+	var git = $('git').val();
+
+	$.ajax({
+		url: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSfs8Tt4y_7L4POwKokPzYZC6H9Fgoms89yjyYsE7xwrZ0QSwg/formResponse", data: {"entry.792661221": name, "entry.823166634": roll, "entry.1391772483": mob, "entry.634985276": email, "entry.1092077394": git}, type: "POST", dataType: "xml", statusCode: {
+			0: function () {
+				window.location.replace("thankyou.html");
+
+			}
+
+			200: function () {
+				window.location.replace("thankyou.html");
+				
+			}
+		}
+	});
+
+}
+
+
+</script> -->
+
+
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700">
@@ -255,31 +286,137 @@
   <div class="icon_wrapper" align="Center">
     <i class="fa fa-forms fa-5x" aria-hidden="true"></i>
   </div>
-  <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSeUOwVe_BtmxPmQcn0AK_dRGAD_f3H-SUnM8cGo_ev_HkN-mw/formResponse" method="post" id="contact_form" name="">
+  <form name="machine" action="thankyou.html">
     <div class="name">
       <label for="name"></label>
-      <input type="text" placeholder="Your Name *" name="entry.1831605829" id="name_input" >
+      <input type="text" placeholder="Your Name *" name="Name" required="true">
     </div>
     <div class="email">
       <label for="email"></label>
-      <input type="text" placeholder="Enrollment Number *" name="entry.1458454444" id="email_input" >
+      <input type="text" placeholder="Enrollment Number *" name="EnrollmentNo." required="true">
     </div>
 <div class="name">
       <label for="name"></label>
-      <input type="text" placeholder="Mobile Number *" name="entry.1831605829" id="name_input" >
+      <input type="text" placeholder="Mobile Number *" name="MobNo." required="true">
     </div>
-    <div class="email">
-      <label for="email"></label>
-      <input type="text" placeholder="Email *" name="entry.1458454444" id="email_input" >
+
+     <div class="email">
+     	 <label for="Branch"></label>
+      <input type="text" placeholder="Branch *" name="branch" required="true">
     </div>
 
     <div class="telephone">
-      <input type="text" placeholder="GitHub Link " name="entry.275751489" id="telephone_input" >
+      <input type="email" placeholder="Email *" name="Email" required="true">
     </div>
-    <div class="submit" align="Center">
-      <input type="submit" value="Submit" id="form_button" />
+
+   
+    <div class="submit" align="Center" >
+      <input type="submit" name="Submit" id="form_button" value="Submit" /> 
+
+<!--  <button type="submit" name="submit">Send</button>  --> 
     </div>
   </form><!-- // End form -->
+
+
+
+
+
+
+
+ <div class="loading js-loading is-hidden">
+      <div class="loading-spinner">
+        <svg><circle cx="25" cy="25" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/></svg>
+      </div>
+    </div>
+
+    <p class="js-success-message is-hidden" align="center" style="font-size: 20px;">Thank you for the registration!</p>
+    <p class="js-error-message is-hidden" align="center"  style="font-size: 20px;">Error!</p>
+  </div>
+
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxPvhNph3mz8x5Q5q1yx3fkAO8UsAaeWuvHpCPrYEtk5RCGc2A/exec'
+    const form = document.forms['machine']
+    const loading = document.querySelector('.js-loading')
+    const successMessage = document.querySelector('.js-success-message')
+    const errorMessage = document.querySelector('.js-error-message')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      showLoadingIndicator()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => showSuccessMessage(response))
+        .catch(error => showErrorMessage(error))
+    })
+
+    function showLoadingIndicator () {
+      form.classList.add('is-hidden')
+      loading.classList.remove('is-hidden')
+    }
+
+    function showSuccessMessage (response) {
+      console.log('Success!', response)
+      setTimeout(() => {
+        successMessage.classList.remove('is-hidden')
+        loading.classList.add('is-hidden')
+      }, 500)
+    }
+
+    function showErrorMessage (error) {
+      console.error('Error!', error.message)
+      setTimeout(() => {
+        errorMessage.classList.remove('is-hidden')
+        loading.classList.add('is-hidden')
+      }, 500)
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>  
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxPvhNph3mz8x5Q5q1yx3fkAO8UsAaeWuvHpCPrYEtk5RCGc2A/exec'  
+  const form = document.forms['machine']  
+  form.addEventListener('submit', e => {  
+   e.preventDefault()  
+   fetch('https://script.google.com/macros/s/AKfycbxPvhNph3mz8x5Q5q1yx3fkAO8UsAaeWuvHpCPrYEtk5RCGc2A/exec', { method: 'POST', body: new FormData(form)})  
+    .then(response => console.log('Success!', response))  
+    .catch(error => console.error('Error!', error.message))  
+  })
+ </script>  
+
+
+
+
+
+
+
+
   
 </div><!-- // End #container -->
         </div>
@@ -574,3 +711,8 @@
 
 </body>
 </html>
+
+
+
+<!-- 
+https://docs.google.com/forms/u/1/d/e/1FAIpQLSeUOwVe_BtmxPmQcn0AK_dRGAD_f3H-SUnM8cGo_ev_HkN-mw/formResponse -->
