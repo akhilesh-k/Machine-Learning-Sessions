@@ -1,7 +1,7 @@
 ## Machine Learning Sessions
 
 ### Overview 
-**This Bootcamp was organized by [Akhilesh Kumar](https://akhilesh-k.github.io) & [Aditya Mohan](https://github.com/7avenged) from 9th April 2018 to 18th April, 2018**
+**This Bootcamp was organized by [Akhilesh Kumar](https://akhilesh-k.github.io) from 9th April 2018 to 18th April, 2018**
 You can see the overview of this Bootcamp [here](https://github.com/akhilesh-k/Machine-Learning-Sessions/blob/master/Slides/Machine%20Learnining%20Bootcamp.pdf)
 
 
@@ -49,7 +49,7 @@ Hands on Sessions on Data Structures with Python. This session will include vari
 - [Files](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/blob/master/Python%20Data%20Structures/Files.ipynb)
 
 
-## Day 3
+## Day 3-4
 **Basic introduction to Python and Machine Learning**
 
 **Overview of various Python libraries**
@@ -74,7 +74,7 @@ To enable our mind of though process of using which algorithm, we have to first 
 
 [View the Resource here](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Data%20Preprocessing/)
  
-## Day 4
+## Day 5
 
 **Regression Algorithms and Hands on**
 - [Simple Linear Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/SimpleLinearRegression)
@@ -84,3 +84,34 @@ To enable our mind of though process of using which algorithm, we have to first 
 - [Decision Tree Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/DecisionTree) 
 - [Random Forest Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/RandomForestRegression)
 - [Regularization Methods]
+
+## Day 6-7
+
+**Classification Algorithms and Hands on**
+
+- [Logistic Regression]
+- [K Nearest Neighbour]
+- [Support Vector Machines]
+- [Kernel SVM]
+- [Naive Bayes]
+- [Decision Tree Classification]
+- [Random Forest Classification]
+
+## Day 8
+
+**Clustering**
+
+- [K-Means Clustering]
+- [Hierarchical Clustering]
+
+## Day 9
+
+**Natural Language Processing and Ensemble Methods**
+
+- [NLP]
+
+## Day 10
+
+**Neural Networks**
+- [ANN]
+- [CNN]
