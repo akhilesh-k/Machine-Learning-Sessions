@@ -72,46 +72,46 @@ To enable our mind of though process of using which algorithm, we have to first 
 - Splitting Datasets 
 - Feature Scaling- Normalization and Standardization 
 
-[View the Resource here](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Data%20Preprocessing/)
+[View the Resource here](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Data%20Preprocessing/) [Download Dataset]()
  
 ## Day 5
 
 **Regression Algorithms and Hands on**
-- [Simple Linear Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/SimpleLinearRegression)
-- [Multiple Linear Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/Multiple%20Linear%20Regression)
-- [Polynomial Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/PolynomialRegression)
-- [Support vector regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/SupportVectorRegressor) 
-- [Decision Tree Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/DecisionTree) 
-- [Random Forest Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/RandomForestRegression)
+- [Simple Linear Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/SimpleLinearRegression) [Download Dataset]()
+- [Multiple Linear Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/Multiple%20Linear%20Regression) [Download Dataset]()
+- [Polynomial Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/PolynomialRegression) [Download Dataset]()
+- [Support vector regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/SupportVectorRegressor) ()[Download Dataset]
+- [Decision Tree Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/DecisionTree) [Download Dataset]()
+- [Random Forest Regression](http://nbviewer.jupyter.org/github/akhilesh-k/Machine-Learning-Sessions/tree/master/Machine%20Learning/Regression/RandomForestRegression) [Download Dataset]()
 - [Regularization Methods]
 
 ## Day 6-7
 
 **Classification Algorithms and Hands on**
 
-- [Logistic Regression]
-- [K Nearest Neighbour]
-- [Support Vector Machines]
-- [Kernel SVM]
-- [Naive Bayes]
-- [Decision Tree Classification]
-- [Random Forest Classification]
+- [Logistic Regression]() [Download Dataset]()
+- [K Nearest Neighbour]() [Download Dataset]()
+- [Support Vector Machines]() [Download Dataset]()
+- [Kernel SVM]() [Download Dataset]()
+- [Naive Bayes]() [Download Dataset]()
+- [Decision Tree Classification]() [Download Dataset]()
+- [Random Forest Classification]() [Download Dataset]()
 
 ## Day 8
 
 **Clustering**
 
-- [K-Means Clustering]
-- [Hierarchical Clustering]
+- [K-Means Clustering]() [Download Dataset](https://drive.google.com/open?id=1v5Kb0d_98ZUNW4BancUTI_wApr2HAomQ)
+- [Hierarchical Clustering]() [Download Dataset](https://drive.google.com/open?id=1v5Kb0d_98ZUNW4BancUTI_wApr2HAomQ)
 
 ## Day 9
 
 **Natural Language Processing and Ensemble Methods**
 
-- [NLP]
+- [NLP]() [Download Dataset](https://drive.google.com/open?id=1PE84oDmoZUGs72WCPR_mEcxMooHcLmz0)
 
 ## Day 10
 
 **Neural Networks**
-- [ANN]
-- [CNN]
+- [ANN]() [Download Dataset](https://drive.google.com/file/d/1dblAyt51U8FUnFx3RqtRl5cRk5QPUoLA)
+- [CNN]() [Download Dataset](https://drive.google.com/open?id=1Y2ZosnJsI7VT_W9c22oPcKtvjDtIzAgL)
