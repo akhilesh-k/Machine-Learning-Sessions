@@ -1,8 +1,13 @@
 ## Machine Learning Sessions
 
+### Overview 
+**This Bootcamp was organized by [Akhilesh Kumar](https://akhilesh-k.github.io) & [Aditya Mohan](https://github.com/7avenged) from 9th April 2018 to 18th April, 2018**
+You can see the overview of this Bootcamp [here](https://github.com/akhilesh-k/Machine-Learning-Sessions/blob/master/Slides/Machine%20Learnining%20Bootcamp.pdf)
+
+
 This Repository contains Codes, Handouts and Slides for the Session on Machine Learning by ACM JUIT. Feel free to use, edit and change whatever you feel like. All the rights are reserved with me for credits of materials. Just add credits whenever you need to reproduce.
 
-Click here to Register for the [BootCamp](https://akhilesh-k.github.io/Machine-Learning-Sessions/)
+Click here to Register for the [BootCamp](https://mlbootcamp.github.io/)
 
 That's all! :)
 ### Clone Repository
@@ -17,7 +22,7 @@ In terminal paste this:
 ## Structure: 
  
 ## Day 1
-**Introduction to Python**
+**Introduction to Python** [Slides]()
 
 Hands on Session on Python to stage everyone on a same level. Session will start with Python syntax.
 
