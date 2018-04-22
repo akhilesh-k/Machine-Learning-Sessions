@@ -101,17 +101,17 @@ To enable our mind of though process of using which algorithm, we have to first 
 
 **Clustering**
 
-- [K-Means Clustering]() [Download Dataset](https://drive.google.com/open?id=1v5Kb0d_98ZUNW4BancUTI_wApr2HAomQ)
-- [Hierarchical Clustering]() [Download Dataset](https://drive.google.com/open?id=1v5Kb0d_98ZUNW4BancUTI_wApr2HAomQ)
+- [K-Means Clustering]() [[Download Dataset](https://drive.google.com/open?id=1v5Kb0d_98ZUNW4BancUTI_wApr2HAomQ)]
+- [Hierarchical Clustering]() [[Download Dataset](https://drive.google.com/open?id=1v5Kb0d_98ZUNW4BancUTI_wApr2HAomQ)]
 
 ## Day 9
 
 **Natural Language Processing and Ensemble Methods**
 
-- [NLP]() [Download Dataset](https://drive.google.com/open?id=1PE84oDmoZUGs72WCPR_mEcxMooHcLmz0)
+- [NLP]() [[Download Dataset](https://drive.google.com/open?id=1PE84oDmoZUGs72WCPR_mEcxMooHcLmz0)]
 
 ## Day 10
 
 **Neural Networks**
-- [ANN]() [Download Dataset](https://drive.google.com/file/d/1dblAyt51U8FUnFx3RqtRl5cRk5QPUoLA)
-- [CNN]() [Download Dataset](https://drive.google.com/open?id=1Y2ZosnJsI7VT_W9c22oPcKtvjDtIzAgL)
+- [ANN]() [[Download Dataset](https://drive.google.com/file/d/1dblAyt51U8FUnFx3RqtRl5cRk5QPUoLA)]
+- [CNN]() [[Download Dataset](https://drive.google.com/open?id=1Y2ZosnJsI7VT_W9c22oPcKtvjDtIzAgL)]
