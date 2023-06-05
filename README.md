@@ -1,7 +1,7 @@
 ## Machine Learning Sessions
 
 ### Overview 
-**This Bootcamp was organized by [ACM JUIT][https://akhilesh-k.github.io) from 9th April 2018 to 18th April, 2018**
+**This Bootcamp was organized by [ACM JUIT](https://akhilesh-k.github.io) from 9th April 2018 to 18th April, 2018**
 You can see the overview of this Bootcamp [here](https://github.com/akhilesh-k/Machine-Learning-Sessions/blob/master/Slides/Machine%20Learnining%20Bootcamp.pdf)
 
 
